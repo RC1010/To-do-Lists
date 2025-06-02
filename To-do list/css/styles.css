@@ -1,0 +1,39 @@
+/* styles.css */
+#home, #about, #contact {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-size: 14px; /* Adjust the font size */
+}
+
+.card {
+    height: 450px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+    cursor: pointer;
+}
+
+/* Change Navbar Height */
+.navbar {
+    height: 70px;
+}
+
+/* Make Navbar Font Bold */
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; 
+}
