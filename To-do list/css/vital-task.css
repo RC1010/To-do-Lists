@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 1% auto;
+    width: 90%;
+}
+
+#container {
+    border-radius: 25px;
+    margin: 3% auto 1%;
+    border: 2px solid #343a40;
+    background: url(../img/paper.jpg);
+    padding: 20px;
+    width: 60%;
+    height: 630px;
+}
+
+#container2 {
+    border-radius: 15px;
+    padding: 25px 25px 25px;
+    border: 2px solid #343a40;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+table {
+    border-radius: 5px;
+    overflow: hidden;
+    height: fit-content;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}

@@ -1,0 +1,40 @@
+<?php
+$sql = "SELECT tasks.id, users.email, tasks.title, tasks.description, tasks.priority, categories.name AS category_name, tasks.created_at
+        FROM tasks
+        JOIN users ON tasks.user_id = users.id
+        JOIN categories ON tasks.category_id = categories.id
+        ORDER BY tasks.created_at DESC";
+
+$stmt = $db->prepare($sql);
+$stmt->execute();
+$tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
+
+<table class="table-bordered table-hover text-center">
+    <thead>
+        <tr>
+            <th class="p-2">#</th>
+            <th class="p-2">Email</th>  <!-- Show User Email -->
+            <th class="p-2">Task Title</th>
+            <th class="p-2">Description</th>
+            <th class="p-2">Priority</th>
+            <th class="p-2">Category</th>  <!-- Show Category Name -->
+            <th class="p-2">Created At</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($tasks as $index => $task): ?>
+            <tr>
+                <td><?= $index + 1; ?></td>
+                <td><?= htmlspecialchars($task['email']); ?></td>  <!-- Display email -->
+                <td><?= htmlspecialchars($task['title']); ?></td>
+                <td><?= htmlspecialchars($task['description']); ?></td>
+                <td><?= htmlspecialchars($task['priority']); ?></td>
+                <td><?= htmlspecialchars($task['category_name']); ?></td>  <!-- Display category name -->
+                <td><?= htmlspecialchars($task['created_at']); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+
+
