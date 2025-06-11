@@ -82,13 +82,13 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <!-- Priority Count Summary -->
             <div class="text-center mx-auto mb-4">
                 <span class="mx-2">
-                    <strong>🟥 High:</strong> <span class="text-dark"><?= $highCount ?></span>
+                    <strong>🔴 High:</strong> <span class="text-dark"><?= $highCount ?></span>
                 </span>
                 <span class="mx-2">
-                    <strong>🟨 Medium:</strong> <span class="text-dark"><?= $mediumCount ?></span>
+                    <strong>🟡 Medium:</strong> <span class="text-dark"><?= $mediumCount ?></span>
                 </span>
                 <span class="mx-2">
-                    <strong>🟩 Low:</strong> <span class="text-dark"><?= $lowCount ?></span>
+                    <strong>🟢 Low:</strong> <span class="text-dark"><?= $lowCount ?></span>
                 </span>
                 <span class="mx-2">
                     <strong>Total:</strong> <span class="text-dark"><?= $totalTasks ?></span>
