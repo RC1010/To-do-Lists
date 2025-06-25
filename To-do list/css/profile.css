@@ -1,0 +1,43 @@
+.main-container {
+    border-radius: 25px;
+    margin: 3% auto 1%;
+    border: 2px solid #343a40;
+    background: url(../img/paper.jpg);
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+
+#container {
+    border-radius: 15px;
+    padding: 25px 25px 25px;
+    border: 2px solid #343a40;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.profile {
+    position: relative;
+    text-align: center;
+    padding-top: 40px; 
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+
+.form-style input {
+    text-align: center;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    width: auto;
+}
