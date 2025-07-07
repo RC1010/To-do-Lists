@@ -6,7 +6,6 @@ require_once './database/connection.php';
 $conn = new Connection();
 $pdo = $conn->getConnection(); // Get PDO connection only once
 
-
 // Registration Process
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['password'], $_POST['confirm_password'])) {
     $first_name = trim($_POST['first_name']);
