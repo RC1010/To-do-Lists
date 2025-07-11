@@ -1,0 +1,45 @@
+#container {
+    border-radius: 25px;
+    margin: 3% auto 1%;
+    border: 2px solid #343a40;
+    background: url(../img/paper.jpg);
+    padding: 20px;
+    width: 60%;
+    height: 680px;
+}
+
+.custom-textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+#container2 {
+    border-radius: 15px;
+    padding: 25px 25px 25px;
+    border: 2px solid #343a40;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+table {
+    border-radius: 5px;
+    overflow: hidden;
+    height: fit-content;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Reduce padding and font size */
+.table th, .table td {
+    padding: 0.25rem 0.5rem; /* smaller padding */
+    font-size: 0.85rem;      /* smaller font */
+    white-space: nowrap;     /* prevent wrapping */
+}
+
+/* Optionally, make the header bold and smaller */
+.table th {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
