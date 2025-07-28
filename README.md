@@ -56,5 +56,20 @@ Architecture Summary:
 
 Screenshot:
 <img width="1214" height="750" alt="Screenshot 2025-07-28 150426" src="https://github.com/user-attachments/assets/55d67c75-ef57-4f51-a506-356338ad1cc7" />
+<img width="1209" height="737" alt="Screenshot 2025-07-28 150439" src="https://github.com/user-attachments/assets/768eb6df-e308-496c-845b-8c1810bed7d0" />
+<img width="1210" height="748" alt="Screenshot 2025-07-28 150448" src="https://github.com/user-attachments/assets/f30b988f-490c-4750-bf60-43114a141dba" />
+
+(Dashboard)
+<img width="1919" height="993" alt="Screenshot 2025-07-28 150326" src="https://github.com/user-attachments/assets/099522e1-5372-4706-80d6-73a37ef46f5b" />
+
+(Profile)
+<img width="1919" height="996" alt="Screenshot 2025-07-28 150340" src="https://github.com/user-attachments/assets/2cd186f7-0442-4959-8f8a-091432b56b9d" />
+
+(Tasks)
+<img width="1918" height="994" alt="Screenshot 2025-07-28 150350" src="https://github.com/user-attachments/assets/dd138139-2fbf-41fc-9e00-d744f5c9c8ef" />
+<img width="1919" height="993" alt="Screenshot 2025-07-28 150357" src="https://github.com/user-attachments/assets/c84ec41f-56f0-4de9-9d1d-93f5dfc76966" />
+<img width="1919" height="993" alt="Screenshot 2025-07-28 150405" src="https://github.com/user-attachments/assets/d4e9d8d7-2058-4b89-96e8-c79f1e34c452" />
+
+
 
 
