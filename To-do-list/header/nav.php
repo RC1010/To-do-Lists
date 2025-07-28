@@ -67,15 +67,6 @@ try {
             <h2 class="px-5"><strong>To-do Plan</strong></h2>
         </a>
 
-        <div class="flex-grow-1 d-flex justify-content-center">
-            <form class="d-flex w-50">
-                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">
-                    <i class="bi bi-search"></i>
-                </button>
-            </form>
-        </div>
-
         <div class="d-flex align-items-center">
             <div class="input-group">
                 <span class="input-group-text btn btn-outline-light me-3" id="calendar-icon">
@@ -146,8 +137,6 @@ try {
                     <li><a class="dropdown-item text-white" href="categories.php"><i class="bi bi-list-task"></i><span class="ms-2">Task Categories</span></a></li>
                 </ul>
             </div>
-
-            <a class="nav-link" href="settings.php"><i class="bi bi-gear"></i><span class="ms-2">Settings</span></a>
             <a class="nav-link logout-btn" href="../database/logout.php"><i class="bi bi-box-arrow-right"></i><span class="ms-2">Log out</span></a>
         </div>
     </aside>
