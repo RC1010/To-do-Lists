@@ -53,3 +53,8 @@ Architecture Summary:
 - Backend: PHP 8.x
 - Database: MySQL (XAMPP or other stack)
 - Architecture: CRUD, MVC-like separation, Secure login system
+
+Screenshot:
+<img width="1214" height="750" alt="Screenshot 2025-07-28 150426" src="https://github.com/user-attachments/assets/55d67c75-ef57-4f51-a506-356338ad1cc7" />
+
+
