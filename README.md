@@ -70,6 +70,11 @@ Screenshot:
 <img width="1919" height="993" alt="Screenshot 2025-07-28 150357" src="https://github.com/user-attachments/assets/c84ec41f-56f0-4de9-9d1d-93f5dfc76966" />
 <img width="1919" height="993" alt="Screenshot 2025-07-28 150405" src="https://github.com/user-attachments/assets/d4e9d8d7-2058-4b89-96e8-c79f1e34c452" />
 
+<img width="1918" height="943" alt="Screenshot 2025-07-28 152358" src="https://github.com/user-attachments/assets/54752bc6-1798-47bd-9919-d347073fa269" />
+<img width="1919" height="946" alt="Screenshot 2025-07-28 152456" src="https://github.com/user-attachments/assets/d3a50889-d196-4578-a2e7-dddbd129258d" />
+<img width="1919" height="940" alt="Screenshot 2025-07-28 152436" src="https://github.com/user-attachments/assets/eb107dc1-eaa4-4a79-8d71-80b2d7d932dd" />
 
+<img width="1919" height="945" alt="Screenshot 2025-07-28 152410" src="https://github.com/user-attachments/assets/f9460db0-103a-4e25-aa94-5a2d8b1c5a70" />
+<img width="1914" height="945" alt="Screenshot 2025-07-28 152425" src="https://github.com/user-attachments/assets/680c7cd1-e3b4-4b99-8669-e38314014623" />
 
 
